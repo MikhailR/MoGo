@@ -7,6 +7,8 @@ font-family: 'Kaushan Script', cursive;*/
 @import url("section-top_and_header.css");
 @import url("section-about.css");
 @import url("section-counter.css");
+@import url("section-services.css");
+@import url("section-design.css");
 
 * {
 	margin: 0;

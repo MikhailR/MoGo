@@ -17,20 +17,20 @@
 	background-color: #95e1d3;
 }
 
-.element__image {
+.about__image {
 	transition-duration: 0.3s;
 	position: relative;
 		width: 100%;
 	height: 100%;
 }
 
-.element__image img {
+.about__image img {
 	display: block;
 	width: 100%;
 	height: 100%;
 }
 
-.element__profile {
+.about__profile {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -43,29 +43,29 @@
 	transition-duration: 0.5s;;
 }
 
-.element__icon {
+.about__icon {
 	width: 35px;
 	height: 25px;
 	margin: 0 auto 10px;
 }
 
-.element__icon img {
+.about__icon img {
 	display: block;
 	width: 100%;
 }
 
-.element__name {
+.about__name {
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
 }
 
-.about__element:hover .element__image {
+.about__element:hover .about__image {
 	transform: translate(-10px, -10px);
 }
 
-.about__element:hover .element__profile {
+.about__element:hover .about__profile {
 	opacity: 1;
 	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252,227,138,0.9));
 }

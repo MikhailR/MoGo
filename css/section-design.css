@@ -1,0 +1,46 @@
+.design {
+	background: linear-gradient(rgba(255,255,255, 0.85),rgba(255,255,255, 0.85)),
+				url("../img/design-bg.jpg") center center no-repeat;
+	background-size: 100% 100%;
+	padding-top: 108px;
+}
+
+.design__images {
+	width: 40%;
+	margin: 5px auto 0;
+	position: relative;
+}
+
+.design__image1 {
+	width: 100%;
+}
+
+.design__image1 img {
+	display: block;
+	width: 100%;
+}
+
+.design__image2 {
+	width: 57.1%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(58.4%,18.7%);
+}
+
+.design__image2 img {
+	display: block;
+	width: 100%;
+}
+
+@media (max-width: 980px) {
+	.design {
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.design {
+		padding-top: 20px;
+	}
+}
