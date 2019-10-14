@@ -1,0 +1,135 @@
+.top {
+	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252,227,138,0.9)), 
+				url("../img/top-bg.jpg") center center no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	padding-bottom: 27px;
+}
+
+.header {
+	padding: 28px 0 160px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+}
+
+.header__navigation {
+	list-style: none;
+}
+
+.header__navigation li {
+	display: inline-block;
+}
+
+.header__navigation li:not(:last-child) {
+	display: inline-block;
+	margin-right: 52px;
+}
+
+.header__navigation li a {
+	display: block;
+	padding: 7px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+	transition-duration: 0.3s;
+} 
+
+.header__navigation li a:hover {
+	color: #fce38a;
+	border-bottom: 2px solid #fce38a;
+}
+
+.header__purchase {
+	margin-left: 50px;
+}
+
+.header__icon {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+.header__icon:first-child {
+	margin-right: 38px;
+}
+
+.header__icon:hover {
+	border-bottom: 2px solid #fce38a;
+}
+
+.top__content {
+	text-align: center;
+}
+
+.top__title {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	line-height: 72px;
+	margin-bottom: 40px;
+}
+
+.top__subtitle {
+	font-size: 150px;
+	font-weight: 700;
+	line-height: 140px;
+	text-transform: uppercase;
+}
+
+.top__subtitle span {
+	display: block;
+}
+
+.top__devider {
+	background-color: #fff;
+	margin: 60px auto 50px;
+}
+
+.top__button {
+	display: block;
+	width: 154px;
+	height: 34px;
+	line-height: 36px;
+	border: 3px solid #fff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	margin: 0 auto 157px;
+}
+
+.top__button:hover {
+	background-color: #fff;
+	color: #fce38a;
+}
+
+.top__sections {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top__part {
+	flex-basis: 23%;
+	text-align: left;
+	border-top: 3px solid #fdefc5;
+	padding-top: 24px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.top__part span {
+	font-size: 24px;
+	font-weight: 700;
+}

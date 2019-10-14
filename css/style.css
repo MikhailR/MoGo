@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Kaushan Script', cursive;*/
+
+@import url("section-top_and_header.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	background-color: #fff;
+}
+
+.container {
+	min-width: 320px;
+	max-width: 100%;
+}
+
+.wrap {
+	min-width: 320px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.devider {
+	width: 60px;
+	height: 3px;
+}
