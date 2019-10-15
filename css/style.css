@@ -9,6 +9,7 @@ font-family: 'Kaushan Script', cursive;*/
 @import url("section-counter.css");
 @import url("section-services.css");
 @import url("section-design.css");
+@import url("section-list.css");
 
 * {
 	margin: 0;

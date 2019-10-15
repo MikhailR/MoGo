@@ -5,13 +5,11 @@
 .services__block {
 	display: flex;
 	flex-wrap: wrap;
-/*	border: 1px solid red;*/
 }
 
 .services__element {
 	flex-basis: 33.3%;
 	box-sizing: border-box;
-/*	border: 1px solid green;*/
 	padding: 25px 25px 45px;
 	display: flex;
 }
@@ -20,7 +18,6 @@
 	width: 33px;
 	height: 33px;
 	flex-shrink: 0;
-/*	border: 1px solid blue;*/
 }
 
 .services__image img {
@@ -31,7 +28,6 @@
 .services__info {
 	padding-left: 25px;
 	text-align: left;
-/*	border: 1px solid yellow;*/
 }
 
 .services__title {
