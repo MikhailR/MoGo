@@ -20,7 +20,7 @@
 .about__image {
 	transition-duration: 0.3s;
 	position: relative;
-		width: 100%;
+	width: 100%;
 	height: 100%;
 }
 
@@ -55,6 +55,7 @@
 }
 
 .about__name {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;

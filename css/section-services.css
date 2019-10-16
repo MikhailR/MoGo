@@ -31,13 +31,10 @@
 }
 
 .services__title {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #333;
 	text-transform: uppercase;
-}
-
-.services__text {
-	font-family: 'Roboto', sans-serif;
 }
 
 .services__element:first-child,

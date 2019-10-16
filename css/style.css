@@ -10,6 +10,10 @@ font-family: 'Kaushan Script', cursive;*/
 @import url("section-services.css");
 @import url("section-design.css");
 @import url("section-list.css");
+@import url("section-review.css");
+@import url("section-team.css");
+
+@import url("section-works.css");
 
 * {
 	margin: 0;
