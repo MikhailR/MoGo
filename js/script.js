@@ -30,25 +30,48 @@ arrow[2].addEventListener('click', function() {
 });
 
 
-/*Прокрутка блоков в разделе отзывов*/ 
-var buttonReviewPrev = document.querySelector('.review__arrow--prev');
-var buttonReviewNext = document.querySelector('.review__arrow--next');
-var reviewArray = document.querySelectorAll('.review__element');
+/*Прокрутка блоков в первом разделе отзывов (после описания направлений работы)*/ 
+var buttonReview1Prev = document.querySelector('.review1__arrow--prev');
+var buttonReview1Next = document.querySelector('.review1__arrow--next');
+var review1Array = document.querySelectorAll('.review1__element');
 var a = 0, b;
-function reviewNext() {
-	if((reviewArray.length - a) > 1)
+function review1Next() {
+	if((review1Array.length - a) > 1)
 	{	  			
-		reviewArray[a].style.order = a+1;
+		review1Array[a].style.order = a+1;
 		a++;
 	}
 };
-function reviewPrev() {
+function review1Prev() {
  	if(a>0)
  	{
  		b = a - 1;
-  		reviewArray[b].style.order = 0;
+  		review1Array[b].style.order = 0;
   		a--;
   	}
  };
-buttonReviewNext.addEventListener('click', reviewNext);
-buttonReviewPrev.addEventListener('click', reviewPrev);
+buttonReview1Next.addEventListener('click', review1Next);
+buttonReview1Prev.addEventListener('click', review1Prev);
+
+/*Прокрутка блоков во втором разделе отзывов (после раздела с работами)*/ 
+var buttonReview2Prev = document.querySelector('.review2__arrow--prev');
+var buttonReview2Next = document.querySelector('.review2__arrow--next');
+var review2Array = document.querySelectorAll('.review2__element');
+var c = 0, d;
+function review2Next() {
+	if((review2Array.length - c) > 1)
+	{	  			
+		review2Array[c].style.order = c+1;
+		c++;
+	}
+};
+function review2Prev() {
+ 	if(c>0)
+ 	{
+ 		d = c - 1;
+  		review2Array[d].style.order = 0;
+  		c--;
+  	}
+ };
+buttonReview2Next.addEventListener('click', review2Next);
+buttonReview2Prev.addEventListener('click', review2Prev);

@@ -1,0 +1,44 @@
+.partners {
+	background-color: #f8f8f8;
+	padding: 60px 0;
+}
+
+.partners__block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.partners__element {
+	width: 130px;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 980px) {
+	.partners__block {
+		flex-wrap: wrap;
+	}
+
+	.partners__element {
+		flex-basis: 33%;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.partners {
+		padding: 20px 0;
+	}
+
+	.partners__element {
+		flex-basis: 48%;
+	}
+}
+
+@media (max-width: 479px) {
+	.partners__element {
+		flex-basis: 98%;
+	}
+}
