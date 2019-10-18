@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400&display=swap');
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Kaushan Script', cursive;*/
-
 @import url("section-top_and_header.css");
 @import url("section-about.css");
 @import url("section-counter.css");
@@ -16,7 +12,7 @@ font-family: 'Kaushan Script', cursive;*/
 @import url("section-works.css");
 @import url("section-review2.css");
 @import url("section-clients.css");
-
+@import url("section-blog.css");
 @import url("section-footer.css");
 
 * {
